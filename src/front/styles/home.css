@@ -1,7 +1,17 @@
-/*
-    home.css: This website contains selectors only used in home.css
-
-    All pages share the styles on index.css but you should create 
-    one more css for each page that will contain the selected used 
-    on that page only (the ones not reused in other pages).
-*/
+:root
+{
+    --yellow: #F5C32C;
+    --orange: #F5C32C;
+    --black: #242D49;
+    --gray: #788097;
+    --blueCard: #DDF8FE;
+    --pruple: rgb(238 210 255);
+    --boxShadow:0px 19px 60px rgb(0 0 0 / 8%);
+    --orangeCard:rgba(252, 166, 31, 0.45);
+    --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+.App{
+    padding: 0.5rem 3.5rem;
+    overflow: hidden;
+    color: var(--black)
+}
