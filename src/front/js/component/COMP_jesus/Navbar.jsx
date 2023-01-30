@@ -1,22 +1,23 @@
 import React from "react"
+import "../COMP_jesus/Navbar.css"
 
-const Navbar = () => {
+export const Navbar = () => {
 
     return (
         <div className="n-wrapper">
             <div className="n-left">
-                <div className="n-name">City Locator</div>
+                <div className="n-name">Speed Car</div>
                 <span>Boton</span>
             </div>
-            <div className="n-rigth">
+            <div className="n-right">
                 <div className="n-list">
-                    <ul>
+                    <ul style={{listStyleType: 'none'}}>
                         <li>home</li>
                         <li>Catálogo</li>
                         <li>Testimoniales</li>
                     </ul>
                 </div>
-                <button className="button">Contáctanos</button>
+                <button className="button n-button">Login</button>
             </div>
         </div>
     )
