@@ -34,12 +34,12 @@
   border: 1px solid var(--orange);
 }
 
-/* Diseño Home */
+/* Diseño Home_1 */
 
 .intro {
   display: flex;
   height: 77vh;
-  margin: 6rem 1.5rem 0rem 1.5rem;
+  margin: 6rem 3rem 0rem 3rem;
   font-family: verdana;
 }
 .i-left {
@@ -71,6 +71,17 @@
     width: 8rem;
     height: 5rem;
 } 
+
+.i-icon{
+    margin-top: 3rem;
+    display: flex;
+    gap: 0rem;
+
+}
+
+.i-icon>*{
+    transform: scale(0.5);
+}
 
 .i-right {
   flex: 1;
