@@ -47,6 +47,7 @@
   position: relative;
   flex: 1;
   flex-direction: column;
+  gap: 1.5rem;
 }
 
 .i-name {
@@ -65,9 +66,11 @@
   font-size: 16px;
   color: var(--gray);
 }
+
 .i-button{
-    width: 6rem;
-}
+    width: 8rem;
+    height: 5rem;
+} 
 
 .i-right {
   flex: 1;
