@@ -82,6 +82,9 @@
 .i-icon>*{
     transform: scale(0.5);
 }
+.i-icon>*:hover{
+  cursor: pointer;
+}
 
 .i-right {
   flex: 1;
