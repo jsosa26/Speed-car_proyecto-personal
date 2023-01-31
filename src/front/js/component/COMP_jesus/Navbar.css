@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0.7rem 1.3rem 0.7rem 1.3rem;
+  font-family: verdana;
 }
 
 .n-left {
