@@ -18,8 +18,14 @@ export const Section2 = () => {
                 <div className="blur s-blurl" style={{ background: "#ABF1FF94"}}></div>
             </div>
             {/* Lado Derecho */}
-            <div className="Cards">
-                Lado derechooovjggn jgngklsdkgs
+            <div className="Card">
+                <div>
+                    <Card
+                    emoji = {HeartEmoji}
+                    heading = {'Texto1'}
+                    detail = {'Explicacion dfhddjhdio gjsijssp ifgjpsjipoh hshfhshsh hhshs'}
+                    />
+                </div>
             </div>
         </div>
     )
