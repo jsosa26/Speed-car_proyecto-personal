@@ -3,6 +3,7 @@ import React from "react"
 // import heartemoji from "../../img/heartemoji.png";
 // import humble from "../../img/humble.png";
 import "./Section2.css"
+import {Card} from "../CompHome/card/Card.jsx";
 
 export const Section2 = () => {
     return (
@@ -21,7 +22,7 @@ export const Section2 = () => {
             <div className="Card">
                 <div>
                     <Card
-                    emoji = {HeartEmoji}
+                    // emoji = {HeartEmoji}
                     heading = {'Texto1'}
                     detail = {'Explicacion dfhddjhdio gjsijssp ifgjpsjipoh hshfhshsh hhshs'}
                     />

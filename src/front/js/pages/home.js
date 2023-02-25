@@ -10,12 +10,13 @@ import Boy from "../../img/boy.png";
 import thumbup from "../../img/thumbup.png";
 import glasses from "../../img/glasses.png";
 import crown from "../../img/crown.png";
-// import { Section2 } from "../js/component/CompJesus/CompHome/Section2.jsx"
+import { Section2 } from "../component/CompJesus/CompHome/Section2.jsx"
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
 
   return (
+    <>
     //Section 1
     <div className="intro">
       <div className="i-left">
@@ -62,5 +63,7 @@ export const Home = () => {
         <div className="blur" style={{background: '#C1F5FF', top: '17rem', width: '21rem', height: '11rem', left: '-9rem'}}></div>
       </div>
     </div>
+    <Section2 />
+    </>
   );
 };
