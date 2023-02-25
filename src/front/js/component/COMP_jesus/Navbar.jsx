@@ -17,7 +17,7 @@ export const Navbar = () => {
                         <li>Testimoniales</li>
                     </ul>
                 </div>
-                <button className="button n-button">Login</button>
+                <button className="button n-button">Registrate</button>
             </div>
         </div>
     )

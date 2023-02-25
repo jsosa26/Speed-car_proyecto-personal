@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { Component, useContext } from "react";
 import { Context } from "../store/appContext";
 import "../../styles/home.css";
 import instagram from "../../img/instagram.png";
@@ -10,6 +10,7 @@ import Boy from "../../img/boy.png";
 import thumbup from "../../img/thumbup.png";
 import glasses from "../../img/glasses.png";
 import crown from "../../img/crown.png";
+import {Section2} from "../js/component/COMP_jesus/Comp_Home/Section_2.jsx"
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
@@ -60,6 +61,7 @@ export const Home = () => {
         <div className="blur" style={{background: "rgba(238 210 255)"}}></div>
         <div className="blur" style={{background: '#C1F5FF', top: '17rem', width: '21rem', height: '11rem', left: '-9rem'}}></div>
       </div>
+      <Section2/>
     </div>
   );
 };
