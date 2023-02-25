@@ -17,11 +17,11 @@ export const Home = () => {
 
   return (
     <>
-    //Section 1
+    {/* Section 1 */}
     <div className="intro">
       <div className="i-left">
         <div className="i-name">
-          <span>Speed Test</span>
+          <span>Speed Car</span>
           <span>
             Somos una compañia con crecimiento exponencial en el mercado
             Automotriz, ofreciendo las mejores cuotas a nuestros clientes, y
