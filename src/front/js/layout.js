@@ -7,7 +7,7 @@ import { Demo } from "./pages/demo";
 import { Single } from "./pages/single";
 import injectContext from "./store/appContext";
 
-import { Navbar } from "../js/component/COMP_jesus/Navbar.jsx";
+import { Navbar } from "../js/component/CompJesus/Navbar.jsx";
 import { Footer } from "./component/footer";
 
 //create your first component

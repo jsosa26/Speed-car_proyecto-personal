@@ -1,11 +1,10 @@
 import React from "react"
-import "../Comp_Home/Section_2.css"
-import glasses from "../../img/glasses.png";
-import heartemoji from "../../img/heartemoji.png";
-import humble from "../../img/humble.png";
+// import glasses from "../../img/glasses.png";
+// import heartemoji from "../../img/heartemoji.png";
+// import humble from "../../img/humble.png";
+import "./Section2.css"
 
 export const Section2 = () => {
-
     return (
         <div className="Servicios">
             {/* Lado Izquierdo */}

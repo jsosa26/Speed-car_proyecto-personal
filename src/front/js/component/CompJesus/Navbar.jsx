@@ -1,5 +1,5 @@
 import React from "react"
-import "../COMP_jesus/Navbar.css"
+import "../CompJesus/Navbar.css"
 
 export const Navbar = () => {
 
