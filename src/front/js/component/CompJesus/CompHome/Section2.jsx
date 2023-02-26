@@ -12,19 +12,18 @@ export const Section2 = () => {
             <div className="awesome">
                 <span>Nuestros Servicios</span>
                 <span>Son los Mejores</span>
-                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum eos ullam rerum accusantium labore tenetur ex iusto, suscipit quaerat eaque
-                <br/>
-                eum commodi deleniti enim soluta aliquid nobis ipsum pariatur doloribus!</span>
+                <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br/> Nostrum eos ullam rerum accusantium labore tenetur ex iusto,<br/> suscipit quaerat eaque
+                eum commodi deleniti enim soluta aliquid <br/> nobis ipsum pariatur doloribus!</span>
                 <button className="button s-button">Registrate</button>
                 <div className="blur s-blurl" style={{ background: "#ABF1FF94"}}></div>
             </div>
             {/* Lado Derecho */}
-            <div className="Card">
-                <div>
+            <div className="Cards">
+                <div style={{left: '14rem'}}>
                     <Card
                     // emoji = {HeartEmoji}
                     heading = {'Texto1'}
-                    detail = {'Explicacion dfhddjhdio gjsijssp ifgjpsjipoh hshfhshsh hhshs'}
+                    detail = {"Explicacion dfhddjhdio gjsijssp "}
                     />
                 </div>
             </div>

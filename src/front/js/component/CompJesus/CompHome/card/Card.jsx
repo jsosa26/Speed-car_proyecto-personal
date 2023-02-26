@@ -7,6 +7,7 @@ export const Card = ({emoji, heading, details}) => {
             <img src={emoji}/>
             <span>{heading}</span>
             <span>{details}</span>
+            <button className="c-button">Leer más</button>
         </div>
     )
 }

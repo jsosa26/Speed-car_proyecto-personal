@@ -35,3 +35,11 @@
     height: 2rem;
     margin-top: 1rem;
 }
+
+.cards{
+    position: relative;
+}
+
+.cards > * {
+    position: absolute;
+  }
