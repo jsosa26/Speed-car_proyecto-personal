@@ -14,7 +14,9 @@ export const Section2 = () => {
                 <span>Son los Mejores</span>
                 <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br/> Nostrum eos ullam rerum accusantium labore tenetur ex iusto,<br/> suscipit quaerat eaque
                 eum commodi deleniti enim soluta aliquid <br/> nobis ipsum pariatur doloribus!</span>
+                <a href="">
                 <button className="button s-button">Registrate</button>
+                </a>
                 <div className="blur s-blurl" style={{ background: "#ABF1FF94"}}></div>
             </div>
             {/* Lado Derecho */}
@@ -26,7 +28,24 @@ export const Section2 = () => {
                     detail = {"Explicacion dfhddjhdio gjsijssp "}
                     />
                 </div>
+                {/* Segunda Carta */}
+                <div style={{top: "12rem", left: "-4rem"}}>
+                    <Card
+                    // emoji = {glasses}
+                    heading = {"Texto2"}
+                    detail = {"Explicacion dfhddjhdio gjsijssp "}
+                    />
+                </div>
+                {/* Tercera Carta */}
+                <div style={{top: "19rem", left: "12rem"}}>
+                    <Card
+                    // emoji = {humble}
+                    heading = {"Texto3"}
+                    detail = {"Explicacion dfhddjhdio gjsijssp "}
+                    />
+                </div>
             </div>
+            <div className="blur s-blur2" style={{ background: "rgba(238 210 255)"}}></div>
         </div>
     )
 }
