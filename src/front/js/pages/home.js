@@ -11,6 +11,7 @@ import thumbup from "../../img/thumbup.png";
 import glasses from "../../img/glasses.png";
 import crown from "../../img/crown.png";
 import { Section2 } from "../component/CompJesus/CompHome/Section2.jsx"
+import { Section3 } from "../component/CompJesus/CompHome/Section3.jsx"
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
@@ -64,6 +65,7 @@ export const Home = () => {
       </div>
     </div>
     <Section2 />
+    <Section3/>
     </>
   );
 };
