@@ -3,12 +3,14 @@ import "../../../../styles/section4.css";
 // import toyot from "../../../../img/chevrolet.css";
 // import mitsubishi from "../../../../img/ford.css";
 // import ford from "../../../../img/mitsubishi.css";
-// import chevrolet from "toyot.css";
+// import chevrolet from "../../../../toyot.css";
+// import chevrolet from "../../../../img/honda.css";
 
 export const Section4 = () => {
 
     return (
         <div className="section4">
+            {/* Left Side */}
             <div className="awesome">
                 <span>Nuestras Mercas</span>
                 <span>Más Vendidas</span>
@@ -17,8 +19,16 @@ export const Section4 = () => {
                 <button className="button s-button">Catálogo</button>
                 <div className="blur s-blurl" style={{ background: "#ABF1FF94"}}></div>
             </div>
-            <div>
-
+            {/* Right Side */}
+            <div className="w-right">
+                <div className="mainCircle">
+                    <div className="">
+                        <img src="" alt="" />
+                    </div>
+                    <div className="">
+                        <img src="" alt="" />
+                    </div>
+                </div>
             </div>
         </div>
     )
