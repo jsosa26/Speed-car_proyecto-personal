@@ -4,7 +4,7 @@ import toyot from "../../../../img/chevrolet.png";
 import ford from "../../../../img/ford.png";
 // import mitsubishi from "../../../../img/mitsubishi.css";
 import chevrolet from "../../../../toyot.png";
-import chevrolet from "../../../../img/honda.png";
+import honda from "../../../../img/honda.png";
 
 export const Section4 = () => {
   return (
