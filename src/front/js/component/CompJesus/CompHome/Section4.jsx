@@ -1,8 +1,8 @@
 import React from "react";
 import "../../../../styles/section4.css";
 import toyot from "../../../../img/chevrolet.png";
-import mitsubishi from "../../../../img/ford.png";
-// import ford from "../../../../img/mitsubishi.css";
+import ford from "../../../../img/ford.png";
+// import mitsubishi from "../../../../img/mitsubishi.css";
 import chevrolet from "../../../../toyot.png";
 import chevrolet from "../../../../img/honda.png";
 
