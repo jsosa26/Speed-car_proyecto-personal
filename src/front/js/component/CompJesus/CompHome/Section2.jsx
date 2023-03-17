@@ -32,7 +32,7 @@ export const Section2 = () => {
                 <div style={{top: "12rem", left: "-4rem"}}>
                     <Card
                     emoji = {glasses}
-                    heading = {"Texto2"}
+                    heading = {'Texto2'}
                     detail = {"Explicacion dfhddjhdio gjsijssp "}
                     />
                 </div>
@@ -40,7 +40,7 @@ export const Section2 = () => {
                 <div style={{top: "19rem", left: "12rem"}}>
                     <Card
                     emoji = {humble}
-                    heading = {"Texto3"}
+                    heading = {'Texto3'}
                     detail = {"Explicacion dfhddjhdio gjsijssp "}
                     />
                 </div>
