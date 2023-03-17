@@ -1,7 +1,7 @@
 import React from "react"
-// import glasses from "../../img/glasses.png";
-// import heartemoji from "../../img/heartemoji.png";
-// import humble from "../../img/humble.png";
+import glasses from "../../../../img/glasses.png";
+import heartemoji from "../../../../img/heartemoji.png";
+import humble from "../../../../img/humble.png";
 import "../CompHome/Section2.css"
 import {Card} from "../CompHome/card/Card.jsx";
 
@@ -23,7 +23,7 @@ export const Section2 = () => {
             <div className="Cards">
                 <div style={{left: '14rem'}}>
                     <Card
-                    // emoji = {HeartEmoji}
+                    emoji = {heartemoji}
                     heading = {'Texto1'}
                     detail = {"Explicacion dfhddjhdio gjsijssp "}
                     />
@@ -31,7 +31,7 @@ export const Section2 = () => {
                 {/* Segunda Carta */}
                 <div style={{top: "12rem", left: "-4rem"}}>
                     <Card
-                    // emoji = {glasses}
+                    emoji = {glasses}
                     heading = {"Texto2"}
                     detail = {"Explicacion dfhddjhdio gjsijssp "}
                     />
@@ -39,7 +39,7 @@ export const Section2 = () => {
                 {/* Tercera Carta */}
                 <div style={{top: "19rem", left: "12rem"}}>
                     <Card
-                    // emoji = {humble}
+                    emoji = {humble}
                     heading = {"Texto3"}
                     detail = {"Explicacion dfhddjhdio gjsijssp "}
                     />

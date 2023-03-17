@@ -3,7 +3,7 @@ import "../../../../styles/section4.css";
 import chevrolet from "../../../../img/chevrolet.png";
 import ford from "../../../../img/ford.png";
 // import mitsubishi from "../../../../img/mitsubishi.css";
-import toyot from "../../../../toyot.png";
+import toyot from "../../../../img/toyot.png";
 import honda from "../../../../img/honda.png";
 
 export const Section4 = () => {
