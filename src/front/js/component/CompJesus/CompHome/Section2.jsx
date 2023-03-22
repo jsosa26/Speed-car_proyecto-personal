@@ -29,7 +29,7 @@ export const Section2 = () => {
                     />
                 </div>
                 {/* Segunda Carta */}
-                <div style={{top: "12rem", left: "-4rem"}}>
+                <div style={{top: "13.5rem", left: "-3rem"}}>
                     <Card
                     emoji = {glasses}
                     heading = {'Texto2'}
@@ -37,7 +37,7 @@ export const Section2 = () => {
                     />
                 </div>
                 {/* Tercera Carta */}
-                <div style={{top: "19rem", left: "12rem"}}>
+                <div style={{top: "20rem", left: "17rem"}}>
                     <Card
                     emoji = {humble}
                     heading = {'Texto3'}
@@ -45,7 +45,7 @@ export const Section2 = () => {
                     />
                 </div>
             </div>
-            <div className="blur s-blur2" style={{ background: "rgba(238 210 255)"}}></div>
+            {<div className="blur s-blur2" style={{ background: "rgba(238 210 255)"}}></div> }
         </div>
     )
 }
