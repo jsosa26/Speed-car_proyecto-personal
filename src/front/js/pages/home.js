@@ -14,6 +14,7 @@ import { Section2 } from "../component/CompJesus/CompHome/Section2.jsx"
 import { Section3 } from "../component/CompJesus/CompHome/Section3.jsx"
 import { Section4 } from "../component/CompJesus/CompHome/Section4.jsx"
 import { Section5 } from "../component/CompJesus/CompHome/Section5.jsx"
+import { Section6 } from "../component/CompJesus/CompHome/Section6.jsx"
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
@@ -70,6 +71,7 @@ export const Home = () => {
     <Section3 />
     <Section4 />
     <Section5 />
+    <Section6 />
     </>
   );
 };
