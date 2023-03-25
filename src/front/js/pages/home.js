@@ -13,6 +13,7 @@ import crown from "../../img/crown.png";
 import { Section2 } from "../component/CompJesus/CompHome/Section2.jsx"
 import { Section3 } from "../component/CompJesus/CompHome/Section3.jsx"
 import { Section4 } from "../component/CompJesus/CompHome/Section4.jsx"
+import { Section5 } from "../component/CompJesus/CompHome/Section5.jsx"
 
 export const Home = () => {
   const { store, actions } = useContext(Context);
@@ -68,6 +69,7 @@ export const Home = () => {
     <Section2 />
     <Section3 />
     <Section4 />
+    <Section5 />
     </>
   );
 };
