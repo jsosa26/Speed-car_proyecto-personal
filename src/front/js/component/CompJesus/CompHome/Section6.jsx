@@ -12,12 +12,30 @@ export const Section6 = () => {
                 <div className="blur t-blur2" style={{ background: "skyblue"}}></div>
             </div>
             {/* slider */}
-            <div class="card">
-                <img src="..." class="card-img-top" alt="..."></img>
+            <div class="testimonials">
+                <img src="../../../../img/img_ts1" class="ts-img-top"></img>
             
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">holis the card's content.</p>
+                <div class="ts-body">
+                    <h5 class="ts-title">Card title</h5>
+                    <p class="ts-text">holis the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="testimonials">
+                <img src="..." class="ts-img-top" alt="..."></img>
+            
+                <div class="ts-body">
+                    <h5 class="ts-title">Card title</h5>
+                    <p class="ts-text">holis the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="testimonials">
+                <img src="..." class="ts-img-top" alt="..."></img>
+            
+                <div class="ts-body">
+                    <h5 class="ts-title">Card title</h5>
+                    <p class="ts-text">holis the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
