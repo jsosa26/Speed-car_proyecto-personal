@@ -16,7 +16,7 @@ export const Section6 = () => {
             </div>
             {/* slider */}
             <div class="testimonials">
-                <img src={hombre1} class="ts-img-top"></img>
+                <img src={hombre1} class="ts-img-top" className="foto_card"></img>
             
                 <div class="ts-body">
                     <h5 class="ts-title">Antonio Cardozo</h5>
@@ -25,7 +25,7 @@ export const Section6 = () => {
                 </div>
             </div>
             <div class="testimonials">
-                <img src={hombre2} class="ts-img-top" alt="..."></img>
+                <img src={hombre2} class="ts-img-top" className="foto_card"></img>
             
                 <div class="ts-body">
                     <h5 class="ts-title">Sebastian Dominguez</h5>
@@ -34,7 +34,7 @@ export const Section6 = () => {
                 </div>
             </div>
             <div class="testimonials">
-                <img src={hombre3} class="ts-img-top" alt="..."></img>
+                <img src={hombre3} class="ts-img-top" className="foto_card"></img>
             
                 <div class="ts-body">
                     <h5 class="ts-title">Fernando Garcia</h5>

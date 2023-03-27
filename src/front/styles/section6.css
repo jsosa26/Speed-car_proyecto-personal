@@ -1,0 +1,16 @@
+.t-wrapper{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+     margin-top: 4rem;
+}
+
+.foto_card{
+    height: 125px;
+    width: 125px;
+    border-radius: 100%;
+}
+
+.testimonials{
+
+}
