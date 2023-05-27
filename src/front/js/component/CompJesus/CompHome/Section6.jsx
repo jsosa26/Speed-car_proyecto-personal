@@ -32,33 +32,37 @@ export const Section6 = () => {
                                 <a href="#" class="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
-                        <div class="carousel-inner">
-                    <div class="testimonials">
-                        <img src={hombre2} class="ts-img-top" className="foto_card"></img>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="testimonials">
+                            <img src={hombre2} class="ts-img-top" className="foto_card"></img>
             
-                        <div class="ts-body">
-                            <h5 class="ts-title">Sebastian Dominguez</h5>
-                            <p class="ts-text">Super recomendado, una excelente pagina, con excelentes precios</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="ts-body">
+                                <h5 class="ts-title">Sebastian Dominguez</h5>
+                                <p class="ts-text">Super recomendado, una excelente pagina, con excelentes precios</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="testimonials">
-                        <img src={hombre3} class="ts-img-top" className="foto_card"></img>
+                    <div class="carousel-item">
+                        <div class="testimonials">
+                            <img src={hombre3} class="ts-img-top" className="foto_card"></img>
             
-                        <div class="ts-body">
-                            <h5 class="ts-title">Fernando Garcia</h5>
-                            <p class="ts-text">impresionante, gracias infinitas por ayudarme al comprar mi vehiculo</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="ts-body">
+                                <h5 class="ts-title">Fernando Garcia</h5>
+                                <p class="ts-text">impresionante, gracias infinitas por ayudarme al comprar mi vehiculo</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden">Anterior</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden">Siguiente</span>
                 </button>
             </div>
         </div>
